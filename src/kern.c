@@ -12,7 +12,6 @@ uint8_t terminal_color = 0x0F;
 #define PIT_PORT 0x42
 #define PIT_CMD_PORT 0x43
 
-// функции
 void outb(uint16_t port, uint8_t val);
 uint8_t inb(uint16_t port);
 void play_sound(uint32_t frequency);
